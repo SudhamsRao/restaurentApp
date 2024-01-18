@@ -19,7 +19,7 @@ const Header = props => {
   const renderCartIcon = () => (
     <div className="cart-icon-link">
       <Link to="/cart">
-        <button type="button" className="cart-icon-button">
+        <button data-testid="cart" type="button" className="cart-icon-button">
           <AiOutlineShoppingCart className="cart-icon" />
         </button>
       </Link>
